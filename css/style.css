@@ -1,0 +1,23 @@
+.my-grid {
+    background-color: red;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 1rem;
+    height: 60vh;
+}
+
+.grid-item {
+    background-color: black;
+    color:aliceblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.grid-item.span-2col {
+    grid-column: 1 / 3;
+}
+
+
+
